@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<title>>_SMF</title>
+	</head>
+	<body>
+		<div id="home">
+			<header>
+				<img src="img/circuit.png" />
+				<h1>Olá, me chamo Samuel</h1>
+				<p class="title-desc">Sou um <span>estudante de Tecnologia da Informação</span>, e esse é o meu portfólio, onde você pode ver o que tenho criado!</p>
+			</header>
+			
+			<button type="button" id="intro_scroll">V</button>
+		</div>	
+
+		<div id="creations">
+			<h2>Projetos</h2>
+			<div class="box">
+				<div class="card">
+					<figure>
+						<img src="img/responsive_img_ptfl.gif" class="project_img" />
+						<figcaption class="img_title gui">> Portfólio responsivo de imagens</figcaption>
+					</figure>
+					<p>
+						Página de exposição de fotografias, que se adequa segundo a resolução de cada dispositivo. 
+						<a target="_blank" href="https://samuelmartinsfrancisco.github.io/Responsive-photography-portfolio">acesse aqui</a>.
+					</p>
+				</div>
+			
+				<div class="card">
+					<figure>
+						<img src="img/github_user_search.gif" class="project_img" />
+						<figcaption class="img_title gui">> Buscador de usuários do GitHub</figcaption>
+					</figure>
+					<p>
+						Aplicação que, através de um nome digitado, e por meio de uma API do GitHub, retorna o usuário correspondente encontrado.
+						<a target="_blank" href="https://github-finder-two-bice.vercel.app/">acesse aqui</a>.
+					</p>
+				</div>
+				
+				<div class="card">
+					<figure>
+						<img src="img/portfolio_v1.gif" class="project_img" />
+						<figcaption class="img_title gui">> Primeira versão deste portfólio</figcaption>
+					</figure>
+					<p>
+						Antiga página usada como portfolio de projetos e de apresentação de informações sobre mim; 
+						<a target="_blank" href="https://samuelmartinsfrancisco.github.io/">acesse aqui</a>.
+					</p>
+				</div>
+				
+				<div class="card">
+					<figure>
+						<img src="img/no_gui_project.png" class="no-gui" />
+						<figcaption class="img_title">> Rest API</figcaption>
+					</figure>
+					<p>
+						API com o tema "heróis" que permite acesso, inserção, edição, e exclusão de um herói na base de dados. 
+						<a target="_blank" href="https://github.com/SamuelMartinsFrancisco/Nodejs-rest-API">acesse aqui</a>.
+					</p>
+				</div>
+				
+				<div class="card">
+					<figure>
+						<img src="img/math_exercises_generator.gif" class="project_img" />
+						<figcaption class="img_title gui">> Gerador de exercícios das 4 operações básicas</figcaption>
+					</figure>
+					<p>
+						Aplicação que auxilia no estudo prático das 4 operações, por meio da geração aleatória de exercícios.
+						<a target="_blank" href="https://projetos-estudo-react.vercel.app/exercises-generator">acesse aqui</a>.
+					</p>
+				</div>
+				
+				<div class="card">
+					<figure>
+						<img src="img/virtual_keyboard.gif" class="project_img" />
+						<figcaption class="img_title gui">> Teclado virtual</figcaption>
+					</figure>
+					<p>
+						Aplicação que imita o funcionamento de um teclado;
+						<a target="_blank" href="https://projetos-estudo-react.vercel.app/simple-keyboard">acesse aqui</a>.
+					</p>
+				</div>
+			</div>
+			
+			<div id="project-modal">
+				<button type="button" class="close-btn" id="close_btn"><img src="img/close_icon.png" alt="close"></button>
+				<figure>
+					<img src="img/portfolio_v1.gif" id="modal_img">
+					<figcaption id="modal_img_title">missing!</figcaption>
+				</figure>
+			</div>
+		</div>
+		
+		<main id="skills">
+			<h2>Habilidades</h2>
+			<div>
+				<section>
+					<h3>Linguagens</h3>
+					<ul>
+						<li>JS</li>
+						<li>PHP</li>
+						<li>Python</li>
+						<li>HTML</li>
+						<li>CSS</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Competências</h3>
+					<ul>
+						<li>Pensamento computacional</li>
+						<li>Programação orientada a objetos</li>
+						<li>Desenvolvimento de páginas Web responsivas</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+		
+		<div id="contact">
+			<h2>Contato</h2>
+			<p class="description">Caso queira falar comigo ou explorar outros projetos meus, abaixo estão alguns canais:</p>
+			<div id="ways">
+				<img src="img/contact.jpeg" />
+				<ul>	
+					<li><a target="_blank" href="mailto:samuelmartinsfrancisco@gmail.com">Email</a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/samuel-martins-francisco-482333214/">LinkedIn</a></li>
+					<li><a target="_blank" href="https://github.com/SamuelMartinsFrancisco">GitHub</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<footer>
+			<p>Samuel Martins Francisco - 2024</p>
+		</footer>
+		
+		<script type="text/javascript" src="js/zoom_project_img.js"></script>
+		<script type="text/javascript" src="js/intro_scroll.js"></script>
+	<body>
+</html>
