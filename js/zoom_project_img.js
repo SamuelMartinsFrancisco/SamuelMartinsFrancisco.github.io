@@ -11,10 +11,12 @@ var modal_img_title = document.getElementById('modal_img_title');
 console.log();
 for(let i = 0, len = projects.length; i < len; i++) {
 	projects[i].addEventListener('click', () => {
-			project_img = projects[i].getAttribute('src');
-			modal_img.setAttribute('src', project_img);
-			modal_img_title.innerText = prjct_img_title[i].innerText;
-			modal.style.display = 'block';
+			if (window.innerWidth > 600) {
+				project_img = projects[i].getAttribute('src');
+				modal_img.setAttribute('src', project_img);
+				modal_img_title.innerText = prjct_img_title[i].innerText;
+				modal.style.display = 'block';
+			}
 	});
 }
 
