@@ -37,6 +37,7 @@ html {
 	background-color: #546872;
 	color: #fff;
 	height: 80vh;
+	min-height: 400px;
 }
 
 #home img {
